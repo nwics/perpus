@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.page-login {
+  width: 100%;
+  height: 100vh;
+  background-color: #2e8cc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center !important;
+}
+form {
+  margin: 16px;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.box-header {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+
+.box-body {
+  padding: 16px;
+}
+.box-footer {
+  border-top: 1px solid #ddd;
+  background-color: #f2f2ff;
+  padding: 16px;
+  /* border-radius: 5px; */
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-group .input-control {
+  padding: 10px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.box-login {
+  width: 300px;
+}
+.btn {
+  border: 1px solid #ddd;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+.float-left {
+  float: left;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  clear: both;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #2e8cc0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.nav a {
+  color: #fff;
+}
+.nav-brand {
+  display: inline-block;
+  padding: 15px 0;
+  margin-right: 16px;
+  color: #fff;
+}
+
+.nav-menu {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.navbar li a {
+  padding: 20px;
+  display: inline-block;
+}
+
+.nav-menu li .dropdown {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+.nav-menu li:hover {
+  background-color: #145da0;
+}
+.nav-menu li .dropdown a {
+  color: #333;
+}
+.nav-menu li .dropdown li:hover a {
+  color: #fff;
+}
+.nav-menu li:hover .dropdown {
+  display: block;
+}
+.conten {
+  border: 1px solid;
+  padding: 80px 0 30px 0;
+}
+.footer {
+  border: 1px solid;
+  padding: 20px;
+}
+
+.banner {
+  border: 1px solid;
+  height: 90vh;
+  background-image: url('YNy9Ka.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text {
+  padding: 25px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.section {
+  border: 1px solid;
+  padding: 100px 0;
+  background-color: #145da0;
+}
+.section h3 {
+  bottom: 1px solid;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  color: white;
+}
+.section p {
+  color: white;
+}
+
+.header {
+  border: 1px solid;
+  background-color: #0d6efd;
+}
+.header-text {
+  border: 1px solid;
+  padding: 20px;
+  float: left;
+}
+.header-text h2 {
+  padding: 5px 0;
+  color: #fff;
+}
+.header-menu {
+  border: 1px solid;
+  float: right;
+}
+.header-menu li {
+  float: left;
+  list-style: none;
+  padding: 20px 10px;
+}
+
+.header-menu li a {
+  font-weight: bold;
+  color: #fff;
+}
+.header-menu li:hover {
+  background-color: #379683;
+}
+
+.wrapper {
+  margin-top: 0%;
+  background-color: #0c2d58;
+}
+
+.wrapper h1 {
+  font-family: 'Allura', cursive;
+  font-size: 32px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #f2f2f2;
+  margin: 20px;
+  margin-bottom: 50px;
+  width: 250px;
+  padding: 30px;
+  line-height: 80px;
+  color: #8e8b8b;
+  position: relative;
+  border-radius: 12px;
+}
+
+.team .team_member h3 {
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#kedua {
+  background-color: #f5f5f5;
+  height: 300px;
+}
+
+footer {
+  padding: 50px;
+  border: 1px solid;
+  background-color: #0c2d58;
+  color: #fff;
+}
